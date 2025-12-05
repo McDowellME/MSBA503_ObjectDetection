@@ -1,0 +1,78 @@
+# -----------------------------
+# Python cache / temp files
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.tmp
+*.log
+
+# -----------------------------
+# Virtual environments
+# -----------------------------
+env/
+venv/
+.venv/
+myenv/
+
+# -----------------------------
+# Jupyter Notebook checkpoints
+# -----------------------------
+.ipynb_checkpoints/
+*.nbconvert/
+
+# -----------------------------
+# Environment variables
+# -----------------------------
+*.env
+projectrootfolderpath.env
+projectrootfolderpath.env.*
+
+# Allow an example template
+!projectrootfolderpath.env.example
+
+# -----------------------------
+# OS / Editor files
+# -----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# -----------------------------
+# Model weights (large files)
+# -----------------------------
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Prevent accidental upload of YOLO weights
+yolov8*.pt
+
+# -----------------------------
+# Image data (assignment requirement)
+# -----------------------------
+Images/
+images/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+
+# -----------------------------
+# Output artifacts
+# -----------------------------
+*.csv
+*.xlsx
+object_detection_comparison_results.csv
+
+# -----------------------------
+# Python build / packaging
+# -----------------------------
+build/
+dist/
+*.egg-info/
