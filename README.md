@@ -76,7 +76,7 @@ Help was provided by Brandon Christenson for guidance, and I liked his use of he
 
 This repository contains two functional versions of the object detection workflow:
 #### 1. Notebook Version (for the MSBA 503 assignment)
-  Designed to show intermediate outputs, printed debugging logs, and explanations suitable for an academic submission. This version emphasizes transparency and readability.
+  Designed to show intermediate outputs, printed debugging logs, and explanations. This version emphasizes transparency and readability.
 
 #### 2. Standalone Script Version (object_detection_script.py)
   A production-style version wrapped in main(), intended for clean execution, portability, and reusability on new image sets. It removes verbose notebook-style output and uses environment variables for configuration.
